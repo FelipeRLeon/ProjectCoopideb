@@ -1,7 +1,7 @@
 import './css/Footer.css';
 const Footer = () => {
-    return (
-        <footer class="footer">
+  return (
+    <footer class="footer">
   <div class="footer-left col-md-4 col-sm-6">
     <p class="about">
       <span> About the company</span> Ut congue augue non tellus bibendum, in varius tellus condimentum. In scelerisque nibh tortor, sed rhoncus odio condimentum in. Sed sed est ut sapien ultrices eleifend. Integer tellus est, vehicula eu lectus tincidunt,
@@ -42,7 +42,8 @@ const Footer = () => {
     <p class="name"> Company Name &copy; 2016</p>
   </div>
 </footer>
-    )
+
+  )
 };
-  
-  export default Footer;
+
+export default Footer;
