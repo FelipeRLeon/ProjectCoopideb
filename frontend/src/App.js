@@ -5,10 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Layout from "./components/Layout";
 
 import Home from './components/Home'
+import Cooperativa from './components/Cooperativa'
 import Servicios from './components/Servicios'
 import Asociarse from './components/Asociarse'
 import Contacto from './components/Contacto'
-import Pqrs from './components/Pqrs'
+import Pqrfs from './components/Pqrfs'
 //import Navigation from './components/Navigation'
 
 export default function App() {
@@ -18,10 +19,11 @@ export default function App() {
             <Routes>
                 <Route path="/" element={<Layout />}>
                 <Route index element={<Home />} />
+                <Route path="cooperativa" element={<Cooperativa />} />
                 <Route path="servicios" element={<Servicios />} />
                 <Route path="asociarse" element={<Asociarse />} />
                 <Route path="contacto" element={<Contacto />} />
-                <Route path="pqrs" element={<Pqrs />} />
+                <Route path="pqrfs" element={<Pqrfs />} />
                 </Route>
             </Routes>
         </BrowserRouter>

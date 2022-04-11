@@ -1,5 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import Footer from './Footer'
+import './css/mains.css';
 
 const Layout = () => {
   return (
@@ -10,16 +11,19 @@ const Layout = () => {
           <div className="" id="navbarNav">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
+                <Link className="nav-link" to="/cooperativa">Nuestra Cooperativa</Link>
+              </li>
+              <li className="nav-item">
                 <Link className="nav-link" to="/servicios">Servicios</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/asociarse">Asociarse</Link>
+                <Link className="nav-link" to="/asociarse">¿Como asociarse?</Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/contacto">Contacto</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/pqrs">Pqrs</Link>
+                <Link className="nav-link" to="/pqrfs">PQRFS</Link>
               </li>
             </ul>
           </div>
