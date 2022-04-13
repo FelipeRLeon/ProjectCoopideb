@@ -15,7 +15,7 @@ const Home = () => {
                         odit, alias dolore quos assumenda aliquam quidem ex repellendus. Voluptatem beatae repellendus
                         aspernatur tempora nisi?</p>
                 </div>
-            </div>
+            </div> 
         </section>
         <section class="portafolio">
             <div class="contenedor">
