@@ -10,6 +10,8 @@ import Servicios from './components/Servicios'
 import Asociarse from './components/Asociarse'
 import Contacto from './components/Contacto'
 import Pqrfs from './components/Pqrfs'
+import Estatuto from './components/Estatuto'
+import Estructura from './components/Estructura'
 //import Navigation from './components/Navigation'
 
 export default function App() {
@@ -24,6 +26,8 @@ export default function App() {
                 <Route path="asociarse" element={<Asociarse />} />
                 <Route path="contacto" element={<Contacto />} />
                 <Route path="pqrfs" element={<Pqrfs />} />
+                <Route path="estatuto" element={<Estatuto />} />
+                <Route path="estructura" element={<Estructura />} />
                 </Route>
             </Routes>
         </BrowserRouter>
