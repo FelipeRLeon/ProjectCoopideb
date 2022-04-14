@@ -8,7 +8,7 @@ const Layout = () => {
   return (
     <div className="flex-wra"> 
       <header className="header">
-        <div className="contenedor">
+        <div className="contenedor-header">
             <div className="barra">
                 <Link className="logo" to="/">
                     <img className="header__logo no-margin" src={require('../img/LOGO_COOPERATIVA.png')} alt="Logotipo"/>
