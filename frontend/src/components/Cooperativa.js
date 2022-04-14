@@ -38,10 +38,6 @@ const Cooperativa = () => {
             
           </div>
         </div>
-
-
-
-
       </div>
     )
   };

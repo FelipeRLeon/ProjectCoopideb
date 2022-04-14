@@ -1,6 +1,6 @@
 .coop-historia {
     background-color: var(--gris2);
-    box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 10px 9px 30px -5px rgba(0,0,0,0.35);
     width: 70%;
     margin: 0 15% 0 15%;
     text-align: justify;
@@ -8,7 +8,7 @@
 }
 .coop-mision {
     background-color: var(--gris2);
-    box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 10px 9px 30px -5px rgba(0,0,0,0.35);
     width: 40%;
     margin: 0 5% 0 5%;
     text-align: justify;
@@ -16,7 +16,7 @@
 }
 .coop-vision {
     background-color: var(--gris2);
-    box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 10px 9px 30px -5px rgba(0,0,0,0.35);
     width: 40%;
     margin: 0 5% 0 5%;
     text-align: justify;
