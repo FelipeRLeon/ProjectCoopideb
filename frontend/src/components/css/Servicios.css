@@ -1,0 +1,34 @@
+.contenedorServicios {
+    max-width: 120rem;
+    width: 90%;  /** Separación a los bordes */
+    /**width: min(90%,120rem);*/ /** CodReducido*/
+    margin: 0 auto;
+}
+
+.credito-ser {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 3rem;
+    margin: 0 5rem;
+}
+.crediprima {
+    margin: 8rem 0 0 ;
+}
+.crediprima p {
+    margin: 4rem 0;
+    text-align: justify;
+}
+.crediprima h2 {
+    color: #009FE3;
+    font-weight: 500;
+}
+.estudianteimg {
+    margin: -10rem 0 8rem 8rem;
+}
+.crediprima__imagen {
+    margin: 0 0 0 5rem;
+}
+.contenedorServicios h1 {
+    color: #009640;
+    font-weight: 500;
+}
