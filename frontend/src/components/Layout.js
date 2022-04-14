@@ -6,7 +6,7 @@ import './css/styles.css';
 
 const Layout = () => {
   return (
-    <div className="flex-wra"> 
+      <div className="flex-wra"> 
       <header className="header">
         <div className="contenedor-header">
             <div className="barra">
@@ -30,6 +30,7 @@ const Layout = () => {
       </div>
       <Footer />
     </div>
+    
   )
 };
 
