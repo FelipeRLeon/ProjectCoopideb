@@ -1,38 +1,34 @@
 import { Outlet, Link } from "react-router-dom";
 import Footer from './Footer'
 import './css/mains.css';
+import './css/Layout.css';
+import './css/normalize.css';
+import './css/styles.css';
 
 const Layout = () => {
   return (
     <div className="flex-wra"> 
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div className="container">
-          <Link  className="navbar-brand" to="/">Home</Link>
-          <div className="" id="navbarNav">
-            <ul className="navbar-nav ml-auto">
-              <li className="nav-item">
-                <Link className="nav-link" to="/cooperativa">Nuestra Cooperativa</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/servicios">Servicios</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/asociarse">¿Como asociarse?</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/contacto">Contacto</Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/pqrfs">PQRFS</Link>
-              </li>
-            </ul>
-          </div>
-        </div>  
-      </nav>
+      <header className="header">
+        <div className="contenedor">
+            <div className="barra">
+                <Link className="logo" to="/">
+                    <img className="header__logo no-margin" src={require('../img/LOGO_COOPERATIVA.png')} alt="Logotipo"/>
+                </Link>
+
+                <nav className="navegacion">
+                    <Link className="navegacion__enlace " to="/cooperativa">Nuestra Cooperativa</Link>
+                    <Link className="navegacion__enlace" to="/servicios">Servicios</Link>
+                    <Link className="navegacion__enlace" to="/asociarse">¿Como asosiarse?</Link>
+                    <Link className="navegacion__enlace" to="/contacto">Contacto</Link>
+                    <Link className="navegacion__enlace navegacion__enlace--activo" to="/pqrfs">PQRST</Link>
+                </nav>
+            </div>
+        </div>
+       </header>
+    
       <div className="contenido">
         <Outlet/>
       </div>
-    
       <Footer />
     </div>
   )
