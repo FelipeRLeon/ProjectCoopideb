@@ -27,10 +27,13 @@ const Cooperativa = () => {
 
           <div className="row row-estatuto">
           <div className="coop-estatuto col-6">
-          <Link className="coop-enlace" to="/estatuto">Estatuto</Link>
+          <button type="button" class="w-100 h-100 btn btn-outline-primary"><Link className="coop-enlace" to="/estatuto">Estatuto</Link></button>
+          
+          
             </div>
             <div className="coop-estructura col-6">
-            <Link className="coop-enlace" to="/estructura">Estructura Organizacional</Link>
+            <button type="button" class="w-100 btn btn-outline-primary"><Link className="coop-enlace" to="/estructura">Estructura Organizacional</Link></button>
+            
             </div>
             
           </div>

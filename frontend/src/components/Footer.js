@@ -1,6 +1,6 @@
 import './css/Footer.css';
 /*Importacion Logos*/
-import { MdLocationCity, MdEmail } from "react-icons/md";
+import { MdLocationCity, MdEmail, MdPhone } from "react-icons/md";
 import { GrMapLocation, GrFacebook, GrLinkedin } from "react-icons/gr";
 import { ImInstagram, ImYoutube } from "react-icons/im";
 const Footer = () => {
@@ -27,7 +27,10 @@ const Footer = () => {
             <p> <MdLocationCity size={25}/>               Bogota, Colombia</p>
           </div>
           <div className="footer-contactoo flex">
-            <p> <GrMapLocation size={25}/>   (601) 3684391</p>
+            <p> <MdPhone size={25}/>   (601) 3684391</p>
+          </div>
+          <div className="footer-contactoo flex">
+            <p> <GrMapLocation size={25}/>   Trasnversal 29# 37-21</p>
           </div>
           <div className="footer-contactoo flex">
             <p><a href="#"> <MdEmail size={25}/> coopideb@hotmail.com </a></p>
@@ -36,16 +39,16 @@ const Footer = () => {
         <div className="elementos-widget-3 col-sm-4 col-6">
           <div className="row w-100">
             <div className="w-20 redicon-footer col-3">
-              <a href="https://www.facebook.com/"><GrFacebook size={25}/></a>
+              <a href="https://www.facebook.com/"><GrFacebook size={50}/></a>
             </div>
             <div className="w-20 redicon-footer col-3">
-              <a href="https://www.instagram.com/"><ImInstagram size={25}/></a>
+              <a href="https://www.instagram.com/"><ImInstagram size={50}/></a>
             </div>
             <div className="w-20 redicon-footer col-3">
-              <a href="https://www.youtube.com/"><ImYoutube size={25}/></a>
+              <a href="https://www.youtube.com/"><ImYoutube size={50}/></a>
             </div>
             <div className="w-20 redicon-footer col-3">
-              <a href="https://www.linkedin.com/"><GrLinkedin size={25}/></a>
+              <a href="https://www.linkedin.com/"><GrLinkedin size={50}/></a>
             </div>
           </div>
 
