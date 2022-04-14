@@ -1,6 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
 import Footer from './Footer'
-import './css/mains.css';
 import './css/Layout.css';
 import './css/normalize.css';
 import './css/styles.css';
