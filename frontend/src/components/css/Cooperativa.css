@@ -1,0 +1,43 @@
+.coop-historia {
+    background-color: var(--gris2);
+    box-shadow: 5px 5px 15px 5px #000000;
+    width: 70%;
+    margin: 0 15% 0 15%;
+    text-align: justify;
+    padding: 45px;
+}
+.coop-mision {
+    background-color: var(--gris2);
+    box-shadow: 5px 5px 15px 5px #000000;
+    width: 40%;
+    margin: 0 5% 0 5%;
+    text-align: justify;
+    padding: 45px;
+}
+.coop-vision {
+    background-color: var(--gris2);
+    box-shadow: 5px 5px 15px 5px #000000;
+    width: 40%;
+    margin: 0 5% 0 5%;
+    text-align: justify;
+    padding: 45px;
+}
+
+.row-estatuto {
+    margin: 80px 15% 10px 15%;
+    padding: 25px;
+}
+
+.coop-estatuto {
+    padding: 15px;
+}
+
+.coop-estructura {
+    padding: 15px;
+    
+}
+
+.coop-enlace {
+    font-size: 6rem;
+    text-align: right;
+}
