@@ -142,20 +142,24 @@ h4 {
 /** Navegacion **/
 .navegacion {
     border: 2px solid #009FE3;
-    border-radius: 5px;
+    border-radius: 8px;
     height: 100px;
     background-color: var(--secundario);
-    padding: 3rem ;
+    padding: 2rem ;
     display: flex;
     justify-content: right;
     gap: 2rem; /** Separacion forma nueva */
 }
 .navegacion__enlace {
-    display: block;
+    background-color: #009640;
+    border: 2px solid #009FE3;
+    border-radius: 25px;
+    text-decoration:  none;
     color: var(--primario);
     font-size: 2.5rem;
+    padding: 10px !important;
     margin-right: 1.5rem;
-    text-align: center;
+    vertical-align: center;
 }
 @media (min-width: 768px) {
     .navegacion {
@@ -168,6 +172,7 @@ h4 {
 }
 .navegacion__enlace--activo,
 .navegacion__enlace:hover {
+    text-decoration:  none;
     color: var(--letraParrafos);
 }
 /** Contacto */ 

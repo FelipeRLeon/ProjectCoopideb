@@ -19,7 +19,7 @@ const Layout = () => {
                     <Link className="navegacion__enlace" to="/servicios">Servicios</Link>
                     <Link className="navegacion__enlace" to="/asociarse">¿Como asosiarse?</Link>
                     <Link className="navegacion__enlace" to="/contacto">Contacto</Link>
-                    <Link className="navegacion__enlace navegacion__enlace--activo" to="/pqrfs">PQRST</Link>
+                    <Link className="navegacion__enlace" to="/pqrfs">PQRST</Link>
                 </nav>
             </div>
         </div>
