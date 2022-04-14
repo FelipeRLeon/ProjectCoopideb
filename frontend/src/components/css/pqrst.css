@@ -1,0 +1,63 @@
+/** Pqrs */ 
+.formulario {
+    background-color: var(--primario);
+    width: min(60rem, 100%);
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+
+}
+.formulario fieldset {
+    border: none;
+}
+.formulario legend {
+    text-align: center;
+    color: var(--letraParrafos);
+    font-size: 2.5rem;
+    text-transform: uppercase; 
+    font-weight: 300;
+    margin-bottom: 2rem;
+
+}
+@media (min-width: 768px) {
+    .contenedor-campos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto auto 20rem ;
+        column-gap: 3rem;
+    }
+
+    .campo:nth-child(9),
+    .campo:nth-child(10),
+    .campo:nth-child(11) {
+        grid-column: 1/3;
+        
+    }
+}
+.contenedor-campos {
+    display: grid;
+}
+.campo{
+    margin-bottom:1rem ;
+    
+}
+
+.campo__label {
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+.campo textarea{
+    height: 15rem;
+}
+.campo__field{
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+.enviar .boton {
+    width: 100%;
+}

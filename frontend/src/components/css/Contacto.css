@@ -1,0 +1,11 @@
+.contacto1 {
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contacto .contenido-texto1 {
+    width: 48%;
+}
+.linea {
+    background-color: var(--azulSecundario);
+}

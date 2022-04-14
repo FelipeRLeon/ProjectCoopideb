@@ -1,3 +1,4 @@
+import './css/pqrst.css';
 const Pqrs = () => {
     return (
       <main class="contenedor">

@@ -5,7 +5,7 @@ const Home = () => {
             <section class="contenedor Nuestra-Coperativa">
                 <h2 class="titulo">Nuestra Cooperativa</h2>
                 <div class="contenedor-Nuestra-Coperativa">
-                    <img src={require('../img/ilustracion2.svg')} alt="" class="imagen-about-us" />
+                    <img src={require('../img/Ilustracion2.svg')} alt="" class="imagen-about-us" />
                     <div class="contenido-textos">
                         <h3><span>1</span>Los Mejores Productos</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero placeat in ipsam saepe ut, quaerat
@@ -23,7 +23,7 @@ const Home = () => {
                     <h2 class="titulo">Creditos</h2>
                     <div class="galeria-port">
                         <div class="imagen-port">
-                            <img src={require('../img/imagen1.jpeg')} alt="" />
+                            <img src={require('../img/IMAGEN1.jpeg')} alt="" />
                             <div class="hover-galeria">
                                 <img src={require('../img/LOGO_COOPERATIVA.png')} alt="" />
                                 <p>Nuestro trabajo</p>
