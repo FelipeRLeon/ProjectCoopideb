@@ -30,10 +30,6 @@ header {
     height: 820px;
     background: #00F260;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(210, 96%, 46%, 0.445), hsla(144, 100%, 47%, 0.664)), url(../../img/imagen4.jpg);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(210, 96%, 46%, 0.445), hsla(144, 100%, 47%, 0.664)), url(../../img/imagen4.jpg);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -94,11 +90,6 @@ header .textos-header {
     height: 550px;
     display: flex;
     justify-content: space-evenly;
-}
-
-.imagen-about-us {
-    width: 48%;
-
 }
 
 .Nuestra-Coperativa .contenido-textos {
