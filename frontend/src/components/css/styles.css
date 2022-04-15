@@ -132,12 +132,9 @@ h4 {
     padding: 0 0 20px 20px;   
 }
 
-<<<<<<< HEAD
-=======
 .barra {
     padding:0;
 }
->>>>>>> 643b09938db0ac9870fd4c474c5fd1a147472453
 @media (min-width: 768px) {
     .barra {
         display: flex;
