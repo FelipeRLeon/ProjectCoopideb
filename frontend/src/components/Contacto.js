@@ -1,4 +1,6 @@
 import './css/Contacto.css';
+import { ImLocation } from "react-icons/im";
+import { MdEmail, MdLocationCity, MdPhone } from "react-icons/md";
 const Contacto = () => {
     return(
       <main class="contenedor contacto no-pading">
@@ -8,23 +10,24 @@ const Contacto = () => {
         <div class="contacto1">
           <div class="contacto-texto1">
             <p>
-              Dirección:Trasnversal 29# 37-21
+            <ImLocation size={25} /> Dirección:Trasnversal 29# 37-21
             </p>
             <p>
-              Correo: Coopideb@hotmail.com
+            <MdEmail size={25} /> Correo: Coopideb@hotmail.com
             </p>
           </div>
           <div class="contacto-texto">
             <p>
-              Ciudad:Bogotá 
+            <MdLocationCity size={25} />Ciudad:Bogotá 
             </p>
             <p>
-              Telefono:(601) 3684391 
+            <MdPhone size={25} />Telefono:(601) 3684391 
             </p>
           </div>
         </div>
         <div  className="d-flex justify-content-center">
           <h1>Mapa</h1>
+          
         </div>
         <hr linea>
         
