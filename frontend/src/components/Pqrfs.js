@@ -1,28 +1,28 @@
 import './css/pqrst.css';
 const Pqrs = () => {
     return (
-      <main class="contenedor">
+      <main className="contenedor">
         <div  className="d-flex justify-content-center">
             <h1>PQRST</h1>
         </div>
         
 
-        <div class="contacto-bg"></div>
+        <div className="contacto-bg"></div>
 
-        <form class="formulario">
+        <form className="formulario">
             <fieldset>
                 <legend>Peticiones, Quejas y Reclamos</legend>
-                <div class="contenedor-campos">
-                    <div class="campo">
-                        <label class="campo__label" for="nombres">Nombres:</label>
-                        <input class="campo__field" type="text" placeholder="Tus Nombres" id="nombre"/>
+                <div className="contenedor-campos">
+                    <div className="campo">
+                        <label className="campo__label" for="nombres">Nombres:</label>
+                        <input className="campo__field" type="text" placeholder="Tus Nombres" id="nombre"/>
                     </div>
-                    <div class="campo">
-                        <label class="campo__label" for="apellidos">Apellidos:</label>
-                        <input class="campo__field" type="text" placeholder="Tus Apellidos" id="apellidos"/>
+                    <div className="campo">
+                        <label className="campo__label" for="apellidos">Apellidos:</label>
+                        <input className="campo__field" type="text" placeholder="Tus Apellidos" id="apellidos"/>
                     </div>
-                    <div class="campo">
-                        <label class="campo__label" for="Tipo de documento">Tipo de documento:</label>
+                    <div className="campo">
+                        <label className="campo__label" for="Tipo de documento">Tipo de documento:</label>
                         <select name="tipo documento">
 
                             <option>Pasaporte</option>
@@ -33,39 +33,39 @@ const Pqrs = () => {
 
                         </select>
                     </div>
-                    <div class="campo">
-                        <label class="campo__label" for="numerodoc">Número documento:</label>
-                        <input class="campo__field" type="number" placeholder="Numero documento" id="numerodoc"/>
+                    <div className="campo">
+                        <label className="campo__label" for="numerodoc">Número documento:</label>
+                        <input className="campo__field" type="number" placeholder="Numero documento" id="numerodoc"/>
                     </div>
-                    <div class="campo">
-                        <label class="campo__label" for="correo">Correo electronico:</label>
-                        <input class="campo__field" type="email" placeholder="Tu correo" id="correo"/>
+                    <div className="campo">
+                        <label className="campo__label" for="correo">Correo electronico:</label>
+                        <input className="campo__field" type="email" placeholder="Tu correo" id="correo"/>
                     </div>
-                    <div class="campo">
-                        <label class="campo__label" for="dirección">Dirección:</label>
-                        <input class="campo__field" type="text" placeholder="Dirección" id="dirección"/>
+                    <div className="campo">
+                        <label className="campo__label" for="dirección">Dirección:</label>
+                        <input className="campo__field" type="text" placeholder="Dirección" id="dirección"/>
                     </div>
-                    <div class="campo">
-                        <label class="campo__label" for="celular">Celular:</label>
-                        <input class="campo__field" type="number" placeholder="(xxx)xxx xx-xx" id="celular"/>
+                    <div className="campo">
+                        <label className="campo__label" for="celular">Celular:</label>
+                        <input className="campo__field" type="number" placeholder="(xxx)xxx xx-xx" id="celular"/>
                     </div>
-                    <div class="campo">
-                        <label class="campo__label" for="ciudad">Ciudad:</label>
-                        <input class="campo__field" type="text" placeholder="ciudad" id="ciudad"/>
+                    <div className="campo">
+                        <label className="campo__label" for="ciudad">Ciudad:</label>
+                        <input className="campo__field" type="text" placeholder="ciudad" id="ciudad"/>
                     </div>
-                    <div class="campo">
-                        <label class="campo__label" for="nombre">Hechos:</label>
-                        <textarea class="campo__field campo__field--textarea" id="hechos">
+                    <div className="campo">
+                        <label className="campo__label" for="nombre">Hechos:</label>
+                        <textarea className="campo__field campo__field--textarea" id="hechos">
                         </textarea>
                     </div>
-                    <div class="campo">
-                        <label class="campo__label" for="nombre">Peticiones:</label>
-                        <textarea class="campo__field" id="peticiones">
+                    <div className="campo">
+                        <label className="campo__label" for="nombre">Peticiones:</label>
+                        <textarea className="campo__field" id="peticiones">
                         </textarea>
                     </div>    
                 </div> 
-                <div class="alinear-derecha flex">
-                    <input type="submit" value="Enviar" class="boton wsm-100"/>
+                <div className="alinear-derecha flex">
+                    <input type="submit" value="Enviar" className="boton wsm-100"/>
                 </div>
             </fieldset>
         </form>
