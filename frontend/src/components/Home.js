@@ -5,7 +5,7 @@ const Home = () => {
             <section class="contenedor Nuestra-Coperativa">
                 <h2 class="titulo">Nuestra Cooperativa</h2>
                 <div class="contenedor-Nuestra-Coperativa">
-                    <img src={require('../img/Ilustracion2.svg')} alt="" class="imagen-about-us" />
+                    <img src={require('../img/ilustracion2.svg')} alt="" class="imagen-about-us" />
                     <div class="contenido-textos">
                         <h3><span>1</span>Los Mejores Productos</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero placeat in ipsam saepe ut, quaerat
