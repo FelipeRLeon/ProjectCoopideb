@@ -1,9 +1,12 @@
-
+import './css/Home.css';
 const Home = () => {
     return (
         <div>
             <section class="contenedor Nuestra-Coperativa">
-                <h2 class="titulo">Nuestra Cooperativa</h2>
+            <div  className="d-flex justify-content-center">
+            <h1>Nuestra cooperativa</h1>
+            </div>
+                
                 <div class="contenedor-Nuestra-Coperativa">
                     <img src={require('../img/ilustracion2.svg')} alt="" class="imagen-about-us" />
                     <div class="contenido-textos">
@@ -20,7 +23,10 @@ const Home = () => {
             </section>
             <section class="portafolio">
                 <div class="contenedor">
-                    <h2 class="titulo">Creditos</h2>
+                <div  className="d-flex justify-content-center">
+                    <h2 className="subtitle">Creditos</h2>
+                </div>
+                    
                     <div class="galeria-port">
                         <div class="imagen-port">
                             <img src={require('../img/imagen1.jpeg')} alt="" />
@@ -54,7 +60,10 @@ const Home = () => {
                 </div>
             </section>
             <section class="clientes contenedor">
-                <h2 class="titulo">Que dice nuestros clientes</h2>
+                <div  className="d-flex justify-content-center">
+                     <h2 class="titulo">Que dice nuestros clientes</h2>  
+                </div>
+                
                 <div class="cards">
                     <div class="card">
                         <img src={require('../img/imagen3.jpg')} alt="" />
@@ -74,7 +83,10 @@ const Home = () => {
             </section>
             <section class="about-servies">
                 <div class="contenedor">
-                    <h2 class="titulo">Nuestro servicios</h2>
+                <div  className="d-flex justify-content-center">
+                    <h2>Nuestro servicios</h2>
+                </div>
+                    
                     <div class="servicio-cont">
                         <div class="servicio-ind">
                             <img src={require('../img/imagen2.jpg')} alt="" />

@@ -1,3 +1,15 @@
+h1 {
+    width: auto;
+    color: var(--verde1);
+    border-bottom: 3px solid var(--azul1);
+}
+
+h2 {
+    width: auto;
+    color: var(--azul1);
+    border-bottom: 3px solid var(--verde1);
+}
+
 .contenedorServicios {
     max-width: 120rem;
     width: 90%;  /** Separación a los bordes */

@@ -1,3 +1,15 @@
+h2 {
+    width: auto;
+    color: var(--azul1);
+    border-bottom: 3px solid var(--verde1);
+}
+
+h1 {
+    width: auto;
+    color: var(--verde1);
+    border-bottom: 3px solid var(--azul1);
+}
+
 .coop-historia {
     background-color: var(--gris2);
     box-shadow: 10px 9px 30px -5px rgba(0,0,0,0.35);
@@ -23,16 +35,19 @@
     padding: 45px;
 }
 
+
 .row-estatuto {
     margin: 80px 15% 10px 15%;
     padding: 25px;
 }
 
 .coop-estatuto {
+    display: inline-block;
     padding: 15px;
 }
 
 .coop-estructura {
+    display: inline-block;
     padding: 15px;
     
 }
@@ -40,4 +55,17 @@
 .coop-enlace {
     font-size: 6rem;
     text-align: right;
+    border: 0;
+}
+
+.btn-coop {
+    color: var(--verde1);
+    font-size: 5rem;
+    transition-duration: 0.4s;
+    border: none;
+}
+
+.btn-coop:hover {
+  background-color: var(--verde4); /* Green */
+  color: var(--azul1);
 }

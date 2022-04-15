@@ -2,7 +2,10 @@ import './css/pqrst.css';
 const Pqrs = () => {
     return (
       <main class="contenedor">
-        <h2 class="centrar-texto">PQRST</h2>
+        <div  className="d-flex justify-content-center">
+            <h1>PQRST</h1>
+        </div>
+        
 
         <div class="contacto-bg"></div>
 

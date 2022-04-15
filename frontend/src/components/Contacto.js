@@ -2,8 +2,9 @@ import './css/Contacto.css';
 const Contacto = () => {
     return(
       <main class="contenedor contacto no-pading">
-        <h1 class="centrar-texto">Contacto</h1>
-
+        <div  className="d-flex justify-content-center">
+          <h1>Contacto</h1>
+        </div>
         <div class="contacto1">
           <div class="contacto-texto1">
             <p>
@@ -22,7 +23,9 @@ const Contacto = () => {
             </p>
           </div>
         </div>
-        <h1 class="centrar-texto">Mapa</h1>
+        <div  className="d-flex justify-content-center">
+          <h1>Mapa</h1>
+        </div>
         <hr linea>
         
         </hr>

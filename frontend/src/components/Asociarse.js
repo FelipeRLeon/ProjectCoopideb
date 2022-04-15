@@ -3,10 +3,15 @@ import './css/Asociarse.css';
 const Asociarse = () => {
     return(
       <main class="contenedorAsociarse no-pading">
-        <h1 class="centrar-texto">¿Como Asociarse?</h1>
+        <div  className="d-flex justify-content-center">
+          <h1>¿Como Asociarse?</h1>
+        </div>
+        
         <p>Si te quieres unir a COOPIDEB solo debes llamarnos, contarnos que tipo de credito necesitas y nosotros te daremos toda la información, te en cuenta los siguientes requisitos.</p>
         <div class="as-1">
-        <h1 >¿Quien puede asociarse?</h1>
+        <div  className="d-flex justify-content-center">
+          <h1>¿Quien puede asociarse?</h1>
+        </div>
         <p>Pueden asociarse servidores públicos del Distrito Capital. Bajo las siguientes modalidades de contratación:</p>
         </div>
         <div >

@@ -4,14 +4,18 @@ import './css/Cooperativa.css';
 const Cooperativa = () => {
     return (
       <div>
-        <h1>Historia</h1>
+      <div  className="d-flex justify-content-center">
+        <h1 className="titulo-coop w-auto">Historia</h1>
+      </div>
         <div className="coop-historia">
           <p> Irure labore qui elit minim cupidatat elit anim excepteur amet. Nulla mollit id et exercitation esse consectetur excepteur mollit velit. Fugiat do est laborum Lorem nostrud Lorem officia fugiat consectetur ut. Aliqua quis tempor consectetur ipsum nulla fugiat consectetur magna. Aute nulla tempor duis eu nostrud sunt deserunt qui cupidatat nulla id duis proident Lorem.</p>
           <p> Irure labore qui elit minim cupidatat elit anim excepteur amet. Nulla mollit id et exercitation esse consectetur excepteur mollit velit. Fugiat do est laborum Lorem nostrud Lorem officia fugiat consectetur ut. Aliqua quis tempor consectetur ipsum nulla fugiat consectetur magna. Aute nulla tempor duis eu nostrud sunt deserunt qui cupidatat nulla id duis proident Lorem.</p>
         </div>
 
         <div>
-          <h1>Direccionamiento Estrategico</h1>
+        <div  className="d-flex justify-content-center">
+        <h1 className="titulo-coop w-auto">Direccionamiento estrategico</h1>
+      </div>
           <div className="row">
             <div className="coop-mision col-6">
               <h2>Mision</h2>
@@ -27,12 +31,13 @@ const Cooperativa = () => {
 
           <div className="row row-estatuto">
           <div className="coop-estatuto col-6">
-          <button type="button" class="w-100 h-100 btn btn-outline-primary"><Link className="coop-enlace" to="/estatuto">Estatuto</Link></button>
+          <Link className="coop-enlace" to="/estatuto"><button type="button" className="btn-coop w-100 h-100 btn btn-primary-outline">Estatuto</button></Link>
+          
           
           
             </div>
             <div className="coop-estructura col-6">
-            <button type="button" class="w-100 btn btn-outline-primary"><Link className="coop-enlace" to="/estructura">Estructura Organizacional</Link></button>
+            <Link className="coop-enlace" to="/estructura"><button type="button" class="btn-coop w-100 btn btn-outline-primary">Estructura Organizacional</button></Link>
             
             </div>
             

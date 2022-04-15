@@ -42,8 +42,9 @@
     
 }
 .contenedor h2 {
-    color: #009640;
-    font-weight: 500;
+    width: auto;
+    color: var(--azul1);
+    border-bottom: 3px solid var(--verde1);
 }
 
 .campo__label {
