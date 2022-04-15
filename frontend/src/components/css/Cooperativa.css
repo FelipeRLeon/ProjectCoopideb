@@ -36,6 +36,8 @@ h1 {
 
 
 .row-estatuto {
+    border-top: 2px solid var(--azul1);
+    border-bottom: 2px solid var(--azul1);;
     margin: 80px 15% 10px 15%;
     padding: 25px;
 }
