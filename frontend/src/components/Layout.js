@@ -11,7 +11,7 @@ const Layout = () => {
         <div className="contenedor-header">
             <div className="barra">
                 <Link className="logo" to="/">
-                    <img className="header__logo no-margin" src={require('../img/LOGO_COOPERATIVA.png')} alt="Logotipo"/>
+                    <img className="header__logo no-margin centrar-texto" src={require('../img/LOGO_COOPERATIVA.png')} alt="Logotipo"/>
                 </Link>
 
                 <nav className="navegacion">

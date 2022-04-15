@@ -4,3 +4,33 @@ h1 {
     color: var(--verde1);
     border-bottom: 3px solid var(--azul1);
 }
+.contenedorServicios1 {
+    max-width: 120rem;
+    width: 90%;  /** Separación a los bordes */
+    /**width: min(90%,120rem);*/ /** CodReducido*/
+    margin: 0 auto;
+}
+
+.credito-ser1 {
+    display: grid;
+    grid-template-columns: 50% 50%;   
+    column-gap: 3rem;
+    margin: 0 10rem;
+}
+.crediprima1 {
+    margin: 8rem 0 0 ;
+    
+}
+.crediprima1 p {
+    margin: 4rem 0;
+    text-align: justify;
+}
+.crediprima1 h2 {
+    color: #009FE3;
+    font-weight: 530;
+}
+.img {
+    display: flex;
+    justify-content: center;
+    margin: 8rem 0;
+}

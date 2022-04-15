@@ -9,17 +9,17 @@ h1 {
     color: var(--verde1);
     border-bottom: 3px solid var(--azul1);
 }
-
+.imagen-prima {
+    margin: 10rem 0 0 25rem;
+}
 .coop-historia {
-    background-color: var(--gris2);
     box-shadow: 10px 9px 30px -5px rgba(0,0,0,0.35);
     width: 70%;
-    margin: 0 15% 0 15%;
+    margin: 0 15% 0 5%;
     text-align: justify;
-    padding: 45px;
+    padding: 50px;
 }
 .coop-mision {
-    background-color: var(--gris2);
     box-shadow: 10px 9px 30px -5px rgba(0,0,0,0.35);
     width: 40%;
     margin: 0 5% 0 5%;
@@ -27,7 +27,6 @@ h1 {
     padding: 45px;
 }
 .coop-vision {
-    background-color: var(--gris2);
     box-shadow: 10px 9px 30px -5px rgba(0,0,0,0.35);
     width: 40%;
     margin: 0 5% 0 5%;

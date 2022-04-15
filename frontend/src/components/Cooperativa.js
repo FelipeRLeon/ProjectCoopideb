@@ -7,10 +7,21 @@ const Cooperativa = () => {
       <div  className="d-flex justify-content-center">
         <h1 className="titulo-coop w-auto">Historia</h1>
       </div>
-        <div className="coop-historia">
-          <p> Irure labore qui elit minim cupidatat elit anim excepteur amet. Nulla mollit id et exercitation esse consectetur excepteur mollit velit. Fugiat do est laborum Lorem nostrud Lorem officia fugiat consectetur ut. Aliqua quis tempor consectetur ipsum nulla fugiat consectetur magna. Aute nulla tempor duis eu nostrud sunt deserunt qui cupidatat nulla id duis proident Lorem.</p>
-          <p> Irure labore qui elit minim cupidatat elit anim excepteur amet. Nulla mollit id et exercitation esse consectetur excepteur mollit velit. Fugiat do est laborum Lorem nostrud Lorem officia fugiat consectetur ut. Aliqua quis tempor consectetur ipsum nulla fugiat consectetur magna. Aute nulla tempor duis eu nostrud sunt deserunt qui cupidatat nulla id duis proident Lorem.</p>
+        <div className="credito-ser1">
+          <div className="imagen-prima">
+          <img alt='imagen-prima' src={require('../img/historia 1.png')}></img>
+          </div>
+          <div className="coop-historia">
+            <p>Por iniciativa de 22 exfuncionarios indemnizados del Distrito Especial de Bogotá DC., mediante ACTA DE CONSTITUCION del dia 23 Noviembre de 2002 debidamente registrada ante la CAMARA DE COMERCIO DE BOGOTA y reunidos los requisitos de ley se declaró constituida la COOPERATIVA
+              MULTIACTIVA DE SERVICIOS Y SUMINISTROS Y SE IDENTIFICARA con la sigla COOPIDEB, con domicilio principal en la ciudad de Bogotá en la TV. 29 No.37-21, con el objeto principal de promover el desarrollo integral del ser humano, económico y cultural de sus asociados y el desarrollo de la comunidad mediante la aplicación y la práctica de los principios y valores cooperativos sobre la base de una eficiente administración. 
+              Se aprobaron los Estatutos por unanimidad de los Socios Fundadores
+              Se integró el Consejo de Administración.
+              Se nombraron Gerente y Revisor Fiscal
+              SERVICIOS que se prestan: APORTE y CREDITO</p>
+            
+          </div>
         </div>
+
 
         <div>
         <div  className="d-flex justify-content-center">
