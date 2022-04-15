@@ -33,7 +33,7 @@ const Footer = () => {
             <p> <GrMapLocation size={25}/>   Trasnversal 29# 37-21</p>
           </div>
           <div className="footer-contactoo flex">
-            <p><a href="/"> <MdEmail size={25}/> coopideb@hotmail.com </a></p>
+            <p><a href="/inicio"> <MdEmail size={25}/> coopideb@hotmail.com </a></p>
           </div>
         </div>
         <div className="elementos-widget-3 col-sm-4 col-6">
