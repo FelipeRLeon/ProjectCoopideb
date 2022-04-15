@@ -41,6 +41,10 @@
     margin-bottom:1rem ;
     
 }
+.contenedor h2 {
+    color: #009640;
+    font-weight: 500;
+}
 
 .campo__label {
     color: var(--blanco);
