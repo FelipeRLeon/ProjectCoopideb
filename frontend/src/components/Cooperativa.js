@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 import './css/Cooperativa.css';
 
+import pdf from '../data/Estatuto.pdf';
+
 const Cooperativa = () => {
     return (
       <div>
       <div  className="d-flex justify-content-center">
-        <h1 className="titulo-coop w-auto">Historia</h1>
+        <h1 className="w-auto">Historia</h1>
       </div>
         <div className="credito-ser1">
           <div className="imagen-prima">
@@ -42,13 +44,12 @@ const Cooperativa = () => {
 
           <div className="row row-estatuto">
           <div className="coop-estatuto col-6">
-          <Link className="coop-enlace" to="/estatuto"><button type="button" className="btn-coop w-100 h-100 btn btn-primary-outline">Estatuto</button></Link>
-          
+          <Link target="_blank" className="coop-enlace" to={pdf}><button type="button" className="btn-coop w-100 h-100 btn btn-primary-outline">Estatuto</button></Link>
           
           
             </div>
             <div className="coop-estructura col-6">
-            <Link className="coop-enlace" to="/estructura"><button type="button" class="btn-coop w-100 btn btn-outline-primary">Estructura Organizacional</button></Link>
+            <Link download className="coop-enlace" to="/estructura"><button type="button" class="btn-coop w-100 btn btn-outline-primary">Estructura Organizacional</button></Link>
             
             </div>
             

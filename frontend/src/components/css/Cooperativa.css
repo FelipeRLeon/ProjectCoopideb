@@ -1,14 +1,4 @@
-h2 {
-    width: auto;
-    color: var(--azul1);
-    border-bottom: 3px solid var(--verde1);
-}
 
-h1 {
-    width: auto;
-    color: var(--verde1);
-    border-bottom: 3px solid var(--azul1);
-}
 .imagen-prima {
     margin: 10rem 0 0 25rem;
 }

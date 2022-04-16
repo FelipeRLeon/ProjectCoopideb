@@ -1,8 +1,10 @@
 const Estructura = () => {
     return (
       <div>
-        <h1>Estructura</h1>;
-        <div className="d-flex justify-content-center">
+        <div  className="d-flex justify-content-center">
+          <h1 className="w-auto">Estructura</h1>
+        </div>
+        <div className="d-flex justify-content-center m-6">
           <img src={require('../img/EstructuraOrganizacional.png')} alt="" class="imagen-about-us" />
         </div>
         
