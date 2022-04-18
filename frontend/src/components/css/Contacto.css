@@ -12,3 +12,9 @@
 .contenedor h1 {
     color: #009640;
 }
+.mapa {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20rem;
+    
+}

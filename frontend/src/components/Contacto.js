@@ -25,9 +25,9 @@ const Contacto = () => {
             </p>
           </div>
         </div>
-        <div  className="d-flex justify-content-center">
+        <div  className="mapa d-flex justify-content-center">
           <h1>Mapa</h1>
-          
+          <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=coopideb&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
         </div>
         <hr linea>
         
