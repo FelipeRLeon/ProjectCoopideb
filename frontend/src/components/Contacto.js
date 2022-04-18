@@ -25,11 +25,11 @@ const Contacto = () => {
             </p>
           </div>
         </div>
-        <div  className="d-flex justify-content-center">
+        <div  className="div-mapa d-flex justify-content-center">
           <h1>Mapa</h1>
           
         </div>
-        <hr linea>
+        <hr>
         
         </hr>
       </main>

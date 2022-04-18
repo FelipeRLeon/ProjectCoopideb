@@ -6,8 +6,8 @@ import './css/styles.css';
 
 const Layout = () => {
   return (
-      <div className="flex-wra"> 
-      <header className="header">
+      <div> 
+      <header>
         <div className="contenedor-header">
             <div className="barra">
                 <Link className="logo" to="/">
@@ -23,13 +23,13 @@ const Layout = () => {
                 </nav>
             </div>
         </div>
-       </header>
-    
+      </header>
+
       <div className="contenido">
         <Outlet/>
       </div>
       <Footer />
-    </div>
+      </div>
     
   )
 };
