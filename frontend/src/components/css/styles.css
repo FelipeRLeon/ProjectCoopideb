@@ -20,6 +20,7 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    margin:0;
 }
 
 *,
@@ -76,12 +77,16 @@ h1,h2,h3 {
     font-family: var(--fuentePrincipal);
 }
 h1 {
+    width: auto;
+    color: var(--verde1);
+    border-bottom: 3px solid var(--azul1);
     font-size: 6.4rem;
-    color: var(--verde);
 }
 h2{
+    width: auto;
+    color: var(--azul1);
+    border-bottom: 3px solid var(--verde1);
     font-size: 4.8rem;
-    color: var(--verde);
 }
 h3 {
     font-size: 2.4rem;
