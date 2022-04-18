@@ -12,7 +12,15 @@
 .contenedor h1 {
     color: #009640;
 }
+<<<<<<< HEAD
 .div-mapa {
     width: 100%;
     height:550px;
+=======
+.mapa {
+    display: flex;
+    flex-direction: column;
+    margin: 0 20rem;
+    
+>>>>>>> 37f8360350a49bb53860dd19074b44686f6d4cce
 }
