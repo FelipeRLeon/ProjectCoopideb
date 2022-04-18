@@ -47,8 +47,8 @@ const Footer = () => {
         </div>
       </div>
       
-        <p className="name derechos-footer"> Todos los derechos reservados &copy; 2022</p>
-      </div>
+      <p className="name derechos-footer"> Todos los derechos reservados &copy; 2022</p>
+    </footer>
   )
 };
 
