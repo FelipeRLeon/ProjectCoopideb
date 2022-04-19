@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
         <div className="elementos-widget-2 col-sm-6 col-lg-4 col-12">
         <p className="footer-info">Contacto</p>
-          <p className="footer-info"><MdLocationCity className="footer-icon" size={25}/> Bogota, Colombia</p>
+          <p className="footer-info"><MdLocationCity className="footer-icon" size={25}/> Bogotá, Colombia</p>
           <p className="footer-info"><MdPhone className="footer-icon" size={25}/> (601) 3684391</p>
           <p className="footer-info"><ImLocation className="footer-icon" size={25} />   Trasnversal 29# 37-21</p>
           <p className="footer-info"><MdEmail className="footer-icon" size={25}/> coopideb@hotmail.com</p>

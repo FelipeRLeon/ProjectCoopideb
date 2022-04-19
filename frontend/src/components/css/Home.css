@@ -31,6 +31,8 @@ h1 {
 }
 .img {
     display: flex;
+    padding-top: 3em;
     justify-content: center;
     margin: 8rem 0;
+    border-top: 2px solid var(--azul1);
 }
