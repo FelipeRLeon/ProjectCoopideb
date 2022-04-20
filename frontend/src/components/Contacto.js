@@ -10,7 +10,7 @@ const Contacto = () => {
         <div className="contacto1">
           <div className="contacto-texto1">
             <p>
-            <ImLocation size={25} /> Dirección:Trasnversal 29# 37-21
+            <ImLocation size={25} /> Dirección: Trasnversal 29# 37-21
             </p>
             <p>
             <MdEmail size={25} /> Correo: Coopideb@hotmail.com
@@ -18,10 +18,10 @@ const Contacto = () => {
           </div>
           <div className="contacto-texto">
             <p>
-            <MdLocationCity size={25} />Ciudad:Bogotá 
+            <MdLocationCity size={25} />Ciudad: Bogotá D.C.
             </p>
             <p>
-            <MdPhone size={25} />Telefono:(601) 3684391 
+            <MdPhone size={25} />Telefono: (601) 3684391 
             </p>
           </div>
         </div>

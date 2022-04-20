@@ -27,7 +27,7 @@ const Cooperativa = () => {
 
         <div>
         <div  className="d-flex e-flex justify-content-center">
-        <h1 className="titulo-coop w-auto">Direccionamiento estrategico</h1>
+        <h1 className="titulo-coop w-auto">Direccionamiento estratégico</h1>
       </div>
           <div className="row">
             <div className="coop-mision col-6">
