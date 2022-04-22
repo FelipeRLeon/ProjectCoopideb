@@ -1,8 +1,4 @@
 
-.imagen_historia {
-    display: flex;
-    align-items: center;
-}
 .coop-historia {
     box-shadow: 10px 9px 30px -5px rgba(0,0,0,0.35);
     width: 90%;
@@ -17,6 +13,9 @@
     margin-top: 10rem;
 }
 .coop-mision, .coop-vision {
+    width: 40%;
+    margin: 0 5% 0 5%;
+    padding: 3%;
     box-shadow: 10px 9px 30px -5px rgba(0,0,0,0.35);
     text-align: justify;
 }
@@ -61,5 +60,13 @@
 @media (max-width: 600px) {
     h1 {
         font-size: 4rem;
+    }
+
+    .coop-mision, .coop-vision {
+        width: 90%;
+        margin: 5%;
+        padding: 3%;
+        box-shadow: 10px 9px 30px -5px rgba(0,0,0,0.35);
+        text-align: justify;
     }
 }

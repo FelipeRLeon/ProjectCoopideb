@@ -6,10 +6,10 @@ const Servicios = () => {
           <h1>Créditos</h1>
         </div>
         <div className='row'>
-          <div className='col-sm-6 col-lg-6 col-12 crediprima__imagenx'>
+          <div className='col-sm-6 col-lg-6 col-12'>
             <img alt='imagen-prima' src={require('../img/prima-01 1 (1).png')}></img>
           </div>
-          <div className='col-sm-6 col-lg-6 col-12 crediprimax'>
+          <div className='col-sm-6 col-lg-6 col-12'>
             <div  className="d-flex justify-content-center">
               <h2>Crediprima</h2> 
             </div>    

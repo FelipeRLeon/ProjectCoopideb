@@ -2,7 +2,7 @@ import './css/Asociarse.css';
 
 const Asociarse = () => {
     return(
-      <main className="contenedorAsociarse no-pading">
+      <main className="contenedorAsociarse">
         <div  className="d-flex justify-content-center">
           <h1>¿Como Asociarse?</h1>
         </div>

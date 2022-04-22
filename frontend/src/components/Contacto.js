@@ -3,7 +3,7 @@ import { ImLocation } from "react-icons/im";
 import { MdEmail, MdLocationCity, MdPhone } from "react-icons/md";
 const Contacto = () => {
     return(
-      <main className="contenedor contacto no-pading">
+      <main className="contenedor">
         <div className="row">
           <div  className="col-sm-12 col-lg-12 col-12 h-auto">
             <div  className="d-flex justify-content-center">

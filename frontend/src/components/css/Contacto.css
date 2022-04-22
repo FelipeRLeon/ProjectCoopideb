@@ -1,26 +1,10 @@
-.contacto1 {
-    height: 80px;
-    display: flex;
-    justify-content: space-evenly;
-}
-
 .linea {
     background-color: var(--azulSecundario);
 }
-.contenedor h1 {
-    color: #009640;
-}
+
 .mapa {
     min-height: 500px;
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-@media (max-width: 600px) { 
-    .contacto1 {
-        height: 80px;
-        display: inline-block;
-        justify-content: space-evenly;
-    }
 }

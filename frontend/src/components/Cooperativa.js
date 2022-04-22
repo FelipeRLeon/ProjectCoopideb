@@ -10,7 +10,7 @@ const Cooperativa = () => {
           <h1>Historia</h1>
         </div>
         <div className="row">
-          <div className="col-sm-6 col-lg-6 col-12 imagen_historia">
+          <div className="col-sm-6 col-lg-6 col-12">
             <img alt='imagen-prima' src={require('../img/historia 1.png')}></img>
           </div>
           <div className="col-sm-6 col-lg-6 col-12">
@@ -23,7 +23,7 @@ const Cooperativa = () => {
           </div>
         </div>
         <div>
-          <div  className="d-flex e-flex justify-content-center">
+          <div  className="d-flex justify-content-center">
             <h1>Direccionamiento estratégico</h1>
           </div>
           <div className="row">
