@@ -9,7 +9,7 @@ const Pqrs = () => {
 
         <div className="contacto-bg"></div>
 
-        <form className="formulario">
+        <form className="formulario" action="MAILTO:feliiperestrepoleon@gmail.com" method="post" encType="text/plain">
             <fieldset>
                 <legend>Peticiones, Quejas y Reclamos</legend>
                 <div className="contenedor-campos">

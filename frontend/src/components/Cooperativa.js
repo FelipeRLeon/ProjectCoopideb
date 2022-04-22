@@ -49,7 +49,7 @@ const Cooperativa = () => {
           
             </div>
             <div className="coop-estructura col-6">
-            <Link download className="coop-enlace" to="/estructura"><button type="button" class="btn-coop w-100 btn btn-outline-primary">Estructura Organizacional</button></Link>
+            <Link download className="coop-enlace" to="/estructura"><button type="button" className="btn-coop w-100 btn btn-outline-primary">Estructura Organizacional</button></Link>
             
             </div>
             

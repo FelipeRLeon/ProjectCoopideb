@@ -17,7 +17,7 @@ const Footer = () => {
       
       <div className="row row-elemenos-widget">
         <div className="elementos-widget-1 col-sm-6 col-lg-4 col-12">
-        <img src={require('../img/LOGO_COOPERATIVA.png')} alt="" class="img-footer" />
+        <img src={require('../img/LOGO_COOPERATIVA.png')} alt="" className="img-footer" />
 
         </div>
         <div className="elementos-widget-2 col-sm-6 col-lg-4 col-12">
@@ -31,16 +31,16 @@ const Footer = () => {
         <div className="elementos-widget-3 col-sm-6 col-lg-4 col-12">
           <div className="row w-100 h-100">
             <div className="footer-divrsocial w-20 col-3">
-              <a className="footer-redsocial" href="https://www.facebook.com/"><GrFacebook size={50}/></a>
+              <a className="footer-redsocial" href="https://www.facebook.com/"><GrFacebook className="iconos-redesso"/></a>
             </div>
             <div className="footer-divrsocial w-20 col-3">
-              <a className="footer-redsocial" href="https://www.instagram.com/"><ImInstagram size={50}/></a>
+              <a className="footer-redsocial" href="https://www.instagram.com/"><ImInstagram className="iconos-redesso"/></a>
             </div>
             <div className="footer-divrsocial w-20 col-3">
-              <a className="footer-redsocial" href="https://www.youtube.com/"><ImYoutube size={50}/></a>
+              <a className="footer-redsocial" href="https://www.youtube.com/"><ImYoutube className="iconos-redesso"/></a>
             </div>
             <div className="footer-divrsocial w-20 col-3">
-              <a className="footer-redsocial" href="https://www.linkedin.com/"><GrLinkedin size={50}/></a>
+              <a className="footer-redsocial" href="https://www.linkedin.com/"><GrLinkedin className="iconos-redesso"/></a>
             </div>
           </div>
 

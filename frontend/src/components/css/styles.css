@@ -191,7 +191,11 @@ h4 {
     text-decoration:  none;
     color: var(--letraParrafos);
 }
-
+@media (max-width: 600px) {
+    p {
+        font-size: 1.5rem;
+    }
+}
 /**Sobre Nosotros*/
 /**@media (min-width: 768px) {
     .contacto{
