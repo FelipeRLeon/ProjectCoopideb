@@ -6,12 +6,12 @@ import pdf from '../data/Estatuto.pdf';
 const Cooperativa = () => {
     return (
       <main>
-      <div  className="d-flex justify-content-center">
-        <h1 className="w-auto">Historia</h1>
-      </div>
+        <div  className="d-flex justify-content-center">
+          <h1>Historia</h1>
+        </div>
         <div className="row">
           <div className="col-sm-6 col-lg-6 col-12 imagen_historia">
-          <img alt='imagen-prima' src={require('../img/historia 1.png')}></img>
+            <img alt='imagen-prima' src={require('../img/historia 1.png')}></img>
           </div>
           <div className="col-sm-6 col-lg-6 col-12">
             <p>Por iniciativa de 22 exfuncionarios indemnizados del Distrito Especial de Bogotá DC., mediante ACTA DE CONSTITUCION del dia 23 Noviembre de 2002 debidamente registrada ante la CAMARA DE COMERCIO DE BOGOTA y reunidos los requisitos de ley se declaró constituida la COOPERATIVA
@@ -20,24 +20,25 @@ const Cooperativa = () => {
               Se integró el Consejo de Administración.
               Se nombraron Gerente y Revisor Fiscal
               SERVICIOS que se prestan: APORTE y CREDITO</p>
-            
           </div>
         </div>
-
-
         <div>
-        <div  className="d-flex e-flex justify-content-center">
-          <h1>Direccionamiento estratégico</h1>
-        </div>
+          <div  className="d-flex e-flex justify-content-center">
+            <h1>Direccionamiento estratégico</h1>
+          </div>
           <div className="row">
             <div className="col-sm-6 col-lg-6 col-12 coop-mision ">
-              <h2>Mision</h2>
+              <div  className="d-flex justify-content-center">
+                <h2>Mision</h2> 
+              </div>
               <p>
               Somos una cooperativa de servicios y suministros que busca mediante  el desarrollo económico, mejorar la vida de sus asociados, familias y colaboradores, fomentando los principios y valores cooperativos, generando confianza, seguridad y responsabilidad solidaria.
               </p>
             </div>
             <div className="col-sm-6 col-lg-6 col-12 coop-vision ">
-              <h2>Vision</h2>
+              <div  className="d-flex justify-content-center">
+                <h2>Vision</h2> 
+              </div>
               <p>COOPIDEB será reconocida como la mejor Cooperativa crédito y bienestar social del sector solidario, empleando prácticas de crecimiento sostenibles y rentables.</p>
             </div>
           </div>

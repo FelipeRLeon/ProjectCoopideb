@@ -1,5 +1,5 @@
 .contenedorAsociarse {
-    max-width: 75rem;
+    max-width: 85%;
     width: 90%;  /** Separación a los bordes */
     /**width: min(90%,120rem);*/ /** CodReducido*/
     margin: 0 auto;
@@ -10,12 +10,12 @@
     color: #009640;
 }
 .contenedorAsociarse p {
-    margin: 0 9rem;
+    margin: 0 10%;
 }
 .as-1 p {
     font-weight: 700;
     text-align: justify;
 }
 .as-2 {
-    margin: 2rem 9rem;
+    margin: 2% 10%;
 }

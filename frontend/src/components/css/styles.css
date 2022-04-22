@@ -33,12 +33,12 @@ html {
 /*Globales */
 .contenedor {
     max-width: 120rem;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 body {
     font-family: var(--fuentePrincipal);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 1.5;
 }
 
