@@ -7,30 +7,27 @@ import './css/styles.css';
 const Layout = () => {
   return (
       <div> 
-      <header>
-        <div className="contenedor-header">
+        <header>
+          <div className="contenedor-header">
             <div className="barra">
-                <Link className="logo" to="/">
-                    <img className="img-navbar no-margin centrar-texto" src={require('../img/LOGO_COOPERATIVA.png')} alt="Logotipo"/>
-                </Link>
-
-                <nav className="navegacion">
-                    <Link className="navegacion__enlace " to="/cooperativa">Nuestra Cooperativa</Link>
-                    <Link className="navegacion__enlace" to="/servicios">Servicios</Link>
-                    <Link className="navegacion__enlace" to="/asociarse">¿Como asosiarse?</Link>
-                    <Link className="navegacion__enlace" to="/contacto">Contacto</Link>
-                    <Link className="navegacion__enlace" to="/pqrfs">PQRST</Link>
-                </nav>
+              <Link className="logo" to="/">
+                  <img className="img-navbar no-margin centrar-texto" src={require('../img/LOGO_COOPERATIVA.png')} alt="Logotipo"/>
+              </Link>
+              <nav className="navegacion">
+                  <Link className="navegacion__enlace " to="/cooperativa">Nuestra Cooperativa</Link>
+                  <Link className="navegacion__enlace" to="/servicios">Servicios</Link>
+                  <Link className="navegacion__enlace" to="/asociarse">¿Como asosiarse?</Link>
+                  <Link className="navegacion__enlace" to="/contacto">Contacto</Link>
+                  <Link className="navegacion__enlace" to="/pqrfs">PQRST</Link>
+              </nav>
             </div>
+          </div>
+        </header>
+        <div className="contenido">
+          <Outlet/>
         </div>
-      </header>
-
-      <div className="contenido">
-        <Outlet/>
+        <Footer />
       </div>
-      <Footer />
-      </div>
-    
   )
 };
 

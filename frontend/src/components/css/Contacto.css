@@ -1,23 +1,10 @@
-.contacto1 {
-    height: 80px;
-    display: flex;
-    justify-content: space-evenly;
-}
-.contacto .contenido-texto1 {
-    width: 48%;
-}
 .linea {
     background-color: var(--azulSecundario);
 }
-.contenedor h1 {
-    color: #009640;
-}
+
 .mapa {
+    min-height: 500px;
     display: flex;
     flex-direction: column;
-    margin-left: 15%;
-    margin-right: 15%;
     text-align: center;
-    
-    
 }

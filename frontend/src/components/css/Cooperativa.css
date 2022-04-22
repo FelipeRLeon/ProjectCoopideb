@@ -1,7 +1,4 @@
 
-.imagen-prima {
-    margin: 10rem 0 0 25rem;
-}
 .coop-historia {
     box-shadow: 10px 9px 30px -5px rgba(0,0,0,0.35);
     width: 90%;
@@ -15,21 +12,13 @@
 .e-flex{
     margin-top: 10rem;
 }
-.coop-mision {
-    box-shadow: 10px 9px 30px -5px rgba(0,0,0,0.35);
+.coop-mision, .coop-vision {
     width: 40%;
     margin: 0 5% 0 5%;
-    text-align: justify;
-    padding: 45px;
-}
-.coop-vision {
+    padding: 3%;
     box-shadow: 10px 9px 30px -5px rgba(0,0,0,0.35);
-    width: 40%;
-    margin: 0 5% 0 5%;
     text-align: justify;
-    padding: 45px;
 }
-
 
 .row-estatuto {
     border-top: 2px solid var(--azul1);
@@ -57,12 +46,27 @@
 
 .btn-coop {
     color: var(--verde1);
-    font-size: 5rem;
+    font-size: 3rem;
     transition-duration: 0.4s;
     border: none;
+    
 }
 
 .btn-coop:hover {
   background-color: var(--verde4); /* Green */
   color: var(--azul1);
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    .coop-mision, .coop-vision {
+        width: 90%;
+        margin: 5%;
+        padding: 3%;
+        box-shadow: 10px 9px 30px -5px rgba(0,0,0,0.35);
+        text-align: justify;
+    }
 }

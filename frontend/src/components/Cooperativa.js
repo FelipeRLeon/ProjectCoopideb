@@ -5,30 +5,27 @@ import pdf from '../data/Estatuto.pdf';
 
 const Cooperativa = () => {
     return (
-      <div>
-      <div  className="d-flex justify-content-center">
-        <h1 className="w-auto">Historia</h1>
-      </div>
-        <div className="credito-ser1">
-          <div className="imagen-prima">
-          <img alt='imagen-prima' src={require('../img/historia 1.png')}></img>
+      <main>
+        <div  className="d-flex justify-content-center">
+          <h1>Historia</h1>
+        </div>
+        <div className="row">
+          <div className="col-sm-6 col-lg-6 col-12">
+            <img alt='imagen-prima' src={require('../img/historia 1.png')}></img>
           </div>
-          <div className="coop-historia">
+          <div className="col-sm-6 col-lg-6 col-12">
             <p>Por iniciativa de 22 exfuncionarios indemnizados del Distrito Especial de Bogotá DC., mediante ACTA DE CONSTITUCION del dia 23 Noviembre de 2002 debidamente registrada ante la CAMARA DE COMERCIO DE BOGOTA y reunidos los requisitos de ley se declaró constituida la COOPERATIVA
               MULTIACTIVA DE SERVICIOS Y SUMINISTROS Y SE IDENTIFICARA con la sigla COOPIDEB, con domicilio principal en la ciudad de Bogotá en la TV. 29 No.37-21, con el objeto principal de promover el desarrollo integral del ser humano, económico y cultural de sus asociados y el desarrollo de la comunidad mediante la aplicación y la práctica de los principios y valores cooperativos sobre la base de una eficiente administración. 
               Se aprobaron los Estatutos por unanimidad de los Socios Fundadores
               Se integró el Consejo de Administración.
               Se nombraron Gerente y Revisor Fiscal
               SERVICIOS que se prestan: APORTE y CREDITO</p>
-            
           </div>
         </div>
-
-
         <div>
-        <div  className="d-flex e-flex justify-content-center">
-        <h1 className="titulo-coop w-auto">Direccionamiento estratégico</h1>
-      </div>
+          <div  className="d-flex justify-content-center">
+            <h1>Direccionamiento estratégico</h1>
+          </div>
           <div className="row">
             <div className="coop-mision col-6">
               <h2>Misión</h2>
@@ -43,19 +40,15 @@ const Cooperativa = () => {
           </div>
 
           <div className="row row-estatuto">
-          <div className="coop-estatuto col-6">
-          <Link target="_blank" className="coop-enlace" to={pdf}><button type="button" className="btn-coop w-100 h-100 btn btn-primary-outline">Estatuto</button></Link>
-          
-          
+            <div className="coop-estatuto col-sm-6 col-lg-6 col-12">
+              <Link target="_blank" className="coop-enlace" to={pdf}><button type="button" className="btn-coop w-100 h-100 btn btn-primary-outline">Estatuto</button></Link>
             </div>
-            <div className="coop-estructura col-6">
-            <Link download className="coop-enlace" to="/estructura"><button type="button" class="btn-coop w-100 btn btn-outline-primary">Estructura Organizacional</button></Link>
-            
-            </div>
-            
+            <div className="coop-estructura col-sm-6 col-lg-6 col-12">
+              <Link download className="coop-enlace" to="/estructura"><button type="button" className="btn-coop w-100 h-100 btn btn-outline-primary">Estructura Organizacional</button></Link>  
+            </div>  
           </div>
         </div>
-      </div>
+      </main>
     )
   };
   

@@ -33,12 +33,12 @@ html {
 /*Globales */
 .contenedor {
     max-width: 120rem;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
 }
 body {
     font-family: var(--fuentePrincipal);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     line-height: 1.5;
 }
 
@@ -192,7 +192,11 @@ h4 {
     text-decoration:  none;
     color: var(--letraParrafos);
 }
-
+@media (max-width: 600px) {
+    p {
+        font-size: 1.5rem;
+    }
+}
 /**Sobre Nosotros*/
 /**@media (min-width: 768px) {
     .contacto{
