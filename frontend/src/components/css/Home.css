@@ -11,24 +11,11 @@ h1 {
     margin: 0 auto;
 }
 
-.credito-ser1 {
-    display: grid;
-    grid-template-columns: 50% 50%;   
-    column-gap: 3rem;
-    margin: 0 10rem;
+.fachada__imagen {
+    display: flex;
+    justify-content: center;
 }
-.crediprima1 {
-    margin: 8rem 0 0 ;
-    
-}
-.crediprima1 p {
-    margin: 4rem 0;
-    text-align: justify;
-}
-.crediprima1 h2 {
-    color: #009FE3;
-    font-weight: 530;
-}
+
 .img {
     display: flex;
     padding-top: 3em;
