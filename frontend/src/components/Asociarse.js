@@ -7,7 +7,7 @@ const Asociarse = () => {
           <h1>¿Como Asociarse?</h1>
         </div>
         
-        <p>Si te quieres unir a COOPIDEB solo debes llamarnos, contarnos que tipo de credito necesitas y nosotros te daremos toda la información, te en cuenta los siguientes requisitos.</p>
+        <p>Si te quieres unir a COOPIDEB solo debes llamarnos, o acercarte a la oficina donde con gusto te atenderemos y te explicaremos los requisitos necesario para hacerlo.</p>
         <div className="as-1">
         <div  className="d-flex justify-content-center">
           <h1>¿Quien puede asociarse?</h1>

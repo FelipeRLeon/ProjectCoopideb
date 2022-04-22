@@ -14,7 +14,7 @@
     --gris2: #DADADA;
     --letraParrafos: #656563;
 
-    --fuentePrincipal: 'Fira Sans';
+    --fuentePrincipal: 'Fira Sans', sans-serif;
 }
 
 html {
@@ -47,6 +47,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     color: var(--letraParrafos);
     font-family: var(--fuentePrincipal);
+    font-weight: 300;
 }
 a {
     text-decoration:  none;

@@ -31,13 +31,13 @@ const Cooperativa = () => {
       </div>
           <div className="row">
             <div className="coop-mision col-6">
-              <h2>Mision</h2>
+              <h2>Misión</h2>
               <p>
               Somos una cooperativa de servicios y suministros que busca mediante  el desarrollo económico, mejorar la vida de sus asociados, familias y colaboradores, fomentando los principios y valores cooperativos, generando confianza, seguridad y responsabilidad solidaria.
               </p>
             </div>
             <div className="coop-vision col-6">
-              <h2>Vision</h2>
+              <h2>Visión</h2>
               <p>COOPIDEB será reconocida como la mejor Cooperativa crédito y bienestar social del sector solidario, empleando prácticas de crecimiento sostenibles y rentables.</p>
             </div>
           </div>

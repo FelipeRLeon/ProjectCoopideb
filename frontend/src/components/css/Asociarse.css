@@ -13,9 +13,11 @@
     margin: 0 9rem;
 }
 .as-1 p {
-    font-weight: 700;
+    font-weight: 500;
     text-align: justify;
 }
 .as-2 {
-    margin: 2rem 9rem;
+    margin: 4rem 10rem;
+    color: #656563;
+    font-weight: 300;
 }
