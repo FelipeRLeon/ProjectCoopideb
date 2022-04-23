@@ -119,6 +119,8 @@ footer {
 
 @media (max-width: 600px) {
 .footer-menu {
+  display: inline-block;
+  text-align: center;
   border-bottom: 2px solid #ffffff;
   margin-bottom: 30px;
   background-color: #515151;

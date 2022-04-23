@@ -23,17 +23,19 @@
 .row-estatuto {
     border-top: 2px solid var(--azul1);
     border-bottom: 2px solid var(--azul1);;
-    margin: 80px 15% 10px 15%;
+    margin: 60px 5% 10px 5%;
     padding: 25px;
 }
 
 .coop-estatuto {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     padding: 15px;
 }
 
 .coop-estructura {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     padding: 15px;
     
 }
@@ -49,7 +51,7 @@
     font-size: 3rem;
     transition-duration: 0.4s;
     border: none;
-    
+    text-align: center;
 }
 
 .btn-coop:hover {
@@ -62,6 +64,12 @@
         font-size: 4rem;
     }
 
+    .coop-historia {
+        box-shadow: none;
+        padding: 5px;
+        margin-top: 20px;
+    }
+
     .coop-mision, .coop-vision {
         width: 90%;
         margin: 5%;
@@ -69,4 +77,5 @@
         box-shadow: 10px 9px 30px -5px rgba(0,0,0,0.35);
         text-align: justify;
     }
+
 }
