@@ -8,3 +8,17 @@
     flex-direction: column;
     text-align: center;
 }
+
+.info-contacto {
+    width: 50%;
+    margin: 0 12% 0 30%;
+    padding: 0% 4% 0% 4%;
+}
+
+@media (max-width: 600px) {
+    .info-contacto {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}

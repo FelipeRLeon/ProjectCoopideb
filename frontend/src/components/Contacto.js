@@ -9,7 +9,7 @@ const Contacto = () => {
             <div  className="d-flex justify-content-center">
               <h1>Contacto</h1>
             </div>
-            <div>
+            <div  className="info-contacto">
               <p>
                 <ImLocation size={25} /> Dirección: Trasnversal 29# 37-21
               </p>

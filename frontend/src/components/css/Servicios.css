@@ -4,3 +4,8 @@
     /**width: min(90%,120rem);*/ /** CodReducido*/
     margin: 0 auto;
 }
+
+.imagen-textos{
+    display: flex;
+    justify-content: center;
+}
