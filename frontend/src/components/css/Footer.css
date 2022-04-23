@@ -9,11 +9,14 @@ footer {
 }
 
 .footer-menu {
+  display: flex;
+  justify-content: center;
   border-bottom: 2px solid #ffffff;
   margin-bottom: 30px;
   background-color: #515151;
   padding-top: 20px;
   padding-bottom: 20px;
+  
 }
 .color-menu {
   color: #C4C4C4;
@@ -91,6 +94,8 @@ footer {
 
 /* footer derechos*/
 .derechos-footer {
+  display: flex;
+  justify-content: center;
   border-top: 2px solid #ffffff;
   background-color: #515151;
   padding: 10px;

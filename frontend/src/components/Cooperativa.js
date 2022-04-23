@@ -6,6 +6,7 @@ import pdf from '../data/Estatuto.pdf';
 const Cooperativa = () => {
     return (
       <main>
+      <div className="home-container">
         <div  className="d-flex justify-content-center">
           <h1>Historia</h1>
         </div>
@@ -47,6 +48,7 @@ const Cooperativa = () => {
               <Link download className="coop-enlace" to="/estructura"><button type="button" className="btn-coop w-100 h-100 btn btn-outline-primary">Estructura Organizacional</button></Link>  
             </div>  
           </div>
+        </div>
         </div>
       </main>
     )
