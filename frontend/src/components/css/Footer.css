@@ -117,7 +117,7 @@ footer {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
 .footer-menu {
   display: inline-block;
   text-align: center;
