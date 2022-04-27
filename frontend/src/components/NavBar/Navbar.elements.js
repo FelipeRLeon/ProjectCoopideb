@@ -111,7 +111,7 @@ export const MenuItemLink = styled.a`
 
     &:hover {
         color: #fff;
-        background-color: var(--verde1);
+        background-color: var(--azul4);
         transition: 0.5s all ease;
 
         div {
