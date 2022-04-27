@@ -11,10 +11,10 @@ const Cooperativa = () => {
           <h1>Historia</h1>
         </div>
         <div className="row">
-          <div className="col-sm-6 col-lg-6 col-12 d-flex flex-wrap align-items-center">
+          <div className="col-lg-6 col-12 d-flex flex-wrap align-items-center">
             <img alt='imagen-prima' src={require('../img/historia 1.png')}></img>
           </div>
-          <div className="col-sm-6 col-lg-6 col-12">
+          <div className="mt-5 col-lg-6 col-12">
             <p className="coop-historia">Por iniciativa de 22 exfuncionarios indemnizados del Distrito Especial de Bogotá DC., mediante ACTA DE CONSTITUCION del dia 23 Noviembre de 2002 debidamente registrada ante la CAMARA DE COMERCIO DE BOGOTA y reunidos los requisitos de ley se declaró constituida la COOPERATIVA
               MULTIACTIVA DE SERVICIOS Y SUMINISTROS Y SE IDENTIFICARA con la sigla COOPIDEB, con domicilio principal en la ciudad de Bogotá en la TV. 29 No.37-21, con el objeto principal de promover el desarrollo integral del ser humano, económico y cultural de sus asociados y el desarrollo de la comunidad mediante la aplicación y la práctica de los principios y valores cooperativos sobre la base de una eficiente administración. 
               Se aprobaron los Estatutos por unanimidad de los Socios Fundadores
