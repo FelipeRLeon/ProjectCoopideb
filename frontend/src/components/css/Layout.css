@@ -3,10 +3,11 @@
 }
 
 .contenido {
-    background-image: url("../../img/fondo1.png");
-    background-position: center; /* Center the image */
+    background-image: url("../../img/backgroundServicios.png");
+    background-position: start; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
+    padding-top: 25px;
     margin-top: 100px;
 }
 
