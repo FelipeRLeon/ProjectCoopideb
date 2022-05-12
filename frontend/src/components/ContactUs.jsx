@@ -10,11 +10,12 @@ export const Mailer = () => {
     emailjs.sendForm('service_yg6rci9','template_3m6rrwq',event.target,'i5_fMBJxfS3dZJYBD')
     .then(response => console.log(response))
     .catch(error => console.log(error))
+    document.getElementById("formulario-pqrst").reset();
   }
 
   return (
     <div className='div-form'>
-      <form className='formulario' onSubmit={sendEmail}>
+      <form className='formulario' id="formulario-pqrst" onSubmit={sendEmail}>
       <fieldset>
                     <legend>Peticiones, Quejas y Reclamos</legend>
                     <div className="contenedor-campos">
