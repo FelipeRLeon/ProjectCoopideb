@@ -7,7 +7,7 @@ export const Mailer = () => {
   const sendEmail = (event) => {
     event.preventDefault();
 
-    emailjs.sendForm('service_yg6rci9','template_3m6rrwq',event.target,'i5_fMBJxfS3dZJYBD')
+    emailjs.sendForm('service_fd883f8','template_xkhjp3i',event.target,'Iw6lodnAnoBVEGn78')
     .then(response => console.log(response))
     .catch(error => console.log(error))
     document.getElementById("formulario-pqrst").reset();

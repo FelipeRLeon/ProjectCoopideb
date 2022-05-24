@@ -8,11 +8,10 @@ const Footer = () => {
     <footer>
       <p className="footer-menu">
         <a className='color-menu' href="/">Inicio</a> |
-        <a className='color-menu' href="cooperativa">Cooperativa</a> |
-        <a className='color-menu' href="servicios"> Servicios</a> |
-        <a className='color-menu' href="asociarse"> Asociarse</a> |
-        <a className='color-menu' href="contacto"> Contacto</a> |
-        <a className='color-menu' href="pqrfs"> PQRFS</a>
+        <a className='color-menu' href="/cooperativa">Cooperativa</a> |
+        <a className='color-menu' href="/asociarse"> Asociarse</a> |
+        <a className='color-menu' href="/contacto"> Contacto</a> |
+        <a className='color-menu' href="/pqrfs"> PQRFS</a>
       </p>
       
       <div className="row row-elemenos-widget">

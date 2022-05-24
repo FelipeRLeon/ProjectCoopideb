@@ -18,7 +18,7 @@ const Asociarse = () => {
           <ul className="as-2">
             <li>Carrera Administrativa / Indefinido / En propiedad Provisionalidad</li>
             <li>Libre Nombramiento y Remoción</li>
-            <li>Se pueden afiliar a COOPEBIS cónyuges y/o compañeros permanentes e hijos de Asociados, mayores de 18 años, así como pensionados o haber adquirido derecho por pensión sustitutiva.</li>
+            <li>Se pueden afiliar a COOPIDEB cónyuges y/o compañeros permanentes e hijos de Asociados, mayores de 18 años, así como pensionados o haber adquirido derecho por pensión sustitutiva.</li>
           </ul>
         </div>
       </main>
