@@ -6,15 +6,15 @@ import { ImInstagram, ImYoutube, ImLocation } from "react-icons/im";
 const Footer = () => {
   return (
     <footer>
-      <p className="footer-menu">
+      {/*<p className="footer-menu">
         <a className='color-menu' href="/">Inicio</a> |
         <a className='color-menu' href="/cooperativa">Cooperativa</a> |
         <a className='color-menu' href="/asociarse"> Asociarse</a> |
         <a className='color-menu' href="/contacto"> Contacto</a> |
         <a className='color-menu' href="/pqrfs"> PQRFS</a>
-      </p>
+  </p>*/}
       
-      <div className="row row-elemenos-widget">
+      <div className="row row-elemenos-widget" mt-6>
         <div className="elementos-widget-1 col-lg-4 col-12">
           <img src={require('../img/LOGO_COOPERATIVA.png')} alt="" className="img-footer" />
         </div>

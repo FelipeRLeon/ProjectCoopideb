@@ -45,14 +45,14 @@ export const LogoContainer = styled.div`
 
 export const Menu = styled.ul`
     border: 2px solid #009FE3;
-    border-radius: 8px;
+    border-radius: 16px;
     background-color: var(--azul1);
-    width: 65%;
+    width: 60%;
     height: 100%;
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding: 0 10px;
+    padding: 0 50px;
 
     @media screen and (max-width: 960px) {
         background-color: var(--azul1);

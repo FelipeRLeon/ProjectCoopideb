@@ -58,7 +58,7 @@ const Navbar = () => {
                             </Link>
                         </MenuItem>
 
-                        <MenuItem>
+                        {/*<MenuItem>
                             <Link to="/asociarse">
                                 <MenuItemLink onClick = {() => setShowMobileMenu(!showMobileMenu)}>
                                     <div>
@@ -67,7 +67,7 @@ const Navbar = () => {
                                     </div>
                                 </MenuItemLink>
                             </Link>
-                        </MenuItem>
+                        </MenuItem>*/}
 
                         <MenuItem>
                             <Link to="/contacto">
