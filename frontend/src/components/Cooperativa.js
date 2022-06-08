@@ -5,7 +5,7 @@ import pdf from '../data/Estatuto.pdf';
 
 const Cooperativa = () => {
     return (
-      <main>
+      <main >
       <div className="home-container">
         <div  className="d-flex justify-content-center">
           <h1>Historia</h1>
