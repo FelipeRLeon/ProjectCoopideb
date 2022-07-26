@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import './css/Cooperativa.css';
 
-import pdf from '../data/Estatuto.pdf';
+import pdf from '../data/EstadosFinancieros.pdf';
 
 const Cooperativa = () => {
     return (
@@ -47,7 +47,7 @@ const Cooperativa = () => {
 
           <div className="row row-estatuto">
             <div className="coop-estatuto col-sm-6 col-lg-6 col-12">
-              <Link target="_blank" className="coop-enlace" to={pdf}><button type="button" className="btn-coop w-auto h-100 btn btn-primary-outline">Estatuto</button></Link>
+              <Link target="_blank" className="coop-enlace" to={pdf}><button type="button" className="btn-coop w-auto h-100 btn btn-primary-outline">Estados Financieros</button></Link>
             </div>
             <div className="coop-estructura col-sm-6 col-lg-6 col-12">
               <Link download className="coop-enlace" to="/estructura"><button type="button" className="btn-coop w-auto h-100 btn btn-outline-primary">Estructura Organizacional</button></Link>  
