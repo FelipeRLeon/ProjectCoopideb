@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import './css/Cooperativa.css';
 
-import pdf from '../data/EstadosFinancieros.pdf';
+import pdf from '../data/20230329105715616.pdf';
 
 const Cooperativa = () => {
     return (
