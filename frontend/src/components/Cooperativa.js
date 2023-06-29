@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import './css/Cooperativa.css';
 
-import pdf from '../data/20230329105715616.pdf';
+import pdf_EstadosFinancieros from '../data/20230329105715616.pdf';
+import pdf_Acta_de_Asamblea from '../data/Acta_de_la_asamblea.pdf';
+import pdf_Estatuto from '../data/Estatuto.pdf';
+import pdf_Informe_de_Gestion from '../data/Informe_de_gestion_2022.pdf';
 
 const Cooperativa = () => {
     return (
@@ -47,11 +50,21 @@ const Cooperativa = () => {
 
           <div className="row row-estatuto">
             <div className="coop-estatuto col-sm-6 col-lg-6 col-12">
-              <Link target="_blank" className="coop-enlace" to={pdf}><button type="button" className="btn-coop w-auto h-100 btn btn-primary-outline">Estados Financieros</button></Link>
+              <Link target="_blank" className="coop-enlace" to={pdf_EstadosFinancieros}><button type="button" className="btn-coop w-auto h-100 btn btn-primary-outline">Estados Financieros</button></Link>
             </div>
             <div className="coop-estructura col-sm-6 col-lg-6 col-12">
               <Link download className="coop-enlace" to="/estructura"><button type="button" className="btn-coop w-auto h-100 btn btn-outline-primary">Estructura Organizacional</button></Link>  
-            </div>  
+            </div>
+            <div className="coop-estatuto col-sm-6 col-lg-6 col-12">
+              <Link target="_blank" className="coop-enlace" to={pdf_Acta_de_Asamblea}><button type="button" className="btn-coop w-auto h-100 btn btn-primary-outline">Acta de la asamblea</button></Link>
+            </div>
+            <div className="coop-estatuto col-sm-6 col-lg-6 col-12">
+              <Link target="_blank" className="coop-enlace" to={pdf_Estatuto}><button type="button" className="btn-coop w-auto h-100 btn btn-primary-outline">Estatuto</button></Link>
+            </div>
+            <div className="coop-estatuto col-sm-6 col-lg-6 col-12">
+              <Link target="_blank" className="coop-enlace" to={pdf_Informe_de_Gestion}><button type="button" className="btn-coop w-auto h-100 btn btn-primary-outline">Informe de gestion</button></Link>
+            </div>
+
           </div>
         </div>
         </div>
