@@ -1,6 +1,8 @@
 import './css/Contacto.css';
 import { ImLocation } from "react-icons/im";
 import { MdEmail, MdLocationCity, MdPhone } from "react-icons/md";
+import { GoogleMap, LoadScript } from '@react-google-maps/api';
+
 const Contacto = () => {
     return(
       <main className="contenedor">
@@ -28,7 +30,7 @@ const Contacto = () => {
             <div  className="d-flex justify-content-center">
               <h1>Mapa</h1>
             </div>
-            <iframe title="mapa" width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=coopideb&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
+          <iframe title="mapa" width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=coopideb&t=&z=13&ie=UTF8&iwloc=&output=embed" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
           </div>
         </div>
       </main>
