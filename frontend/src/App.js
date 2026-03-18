@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -12,9 +12,17 @@ import Contacto from './components/Contacto'
 import Pqrfs from './components/Pqrfs'
 import Estructura from './components/Estructura'
 
+
+import Modal from "./components/Modal";
+
 export default function App() {
+const [mostrarEntrega, setMostrarEntrega] = useState(true);
+
     return ( 
         <div>
+            {mostrarEntrega && (
+        <Modal onClose={() => setMostrarEntrega(false)} />
+      )}
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Layout />}>
