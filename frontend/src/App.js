@@ -16,7 +16,7 @@ import Estructura from './components/Estructura'
 import Modal from "./components/Modal";
 
 export default function App() {
-const [mostrarEntrega, setMostrarEntrega] = useState(true);
+const [mostrarEntrega, setMostrarEntrega] = useState(false);
 
     return ( 
         <div>

@@ -7,6 +7,7 @@ import pdf_Estatuto from '../data/Estatuto.pdf';
 import pdf_EstadosFinancieros21 from '../data/EstadosFinancieros21.pdf';
 import pdf_EstadosFinancieros22 from '../data/EstadosFinancieros22.pdf';
 import pdf_EstadosFinancieros24 from '../data/EstadosFinancieros24.pdf';
+import pdf_EstadosFinancieros25 from '../data/EstadosFinancieros25.pdf';
 import pdf_Informe_de_Gestion from '../data/Informe_de_gestion_2022.pdf';
 
 
@@ -80,6 +81,7 @@ useEffect(() => {
                       <a href={pdf_EstadosFinancieros21} target="_blank" rel="noopener noreferrer">2021</a>
                       <a href={pdf_EstadosFinancieros22} target="_blank" rel="noopener noreferrer">2022</a>
                       <a href={pdf_EstadosFinancieros24} target="_blank" rel="noopener noreferrer">2024</a>
+                      <a href={pdf_EstadosFinancieros25} target="_blank" rel="noopener noreferrer">2025</a>
                     </div>
                   )}
               </div>
